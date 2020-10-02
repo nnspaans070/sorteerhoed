@@ -1,6 +1,6 @@
 
 # !!zorg ervoor dat de text bestand en het py bestand in dezelfde map zit
-# of zorg dat je de juiste filepath schrijft(dit hoeft alleen als je niet de txt en py bestanden in hetzelfde map heb zitten!) 
+# of zorg dat je de juiste filepath schrijft(dit hoeft alleen als je niet de txt en py bestanden in hetzelfde map heb zitten!)
 
 replay = 1
 module_1 = 0
@@ -25,16 +25,16 @@ def vraagfunc():
             while True:
                 ip = input('Senpai UwU! enter your awnser:\n')
                 print('\n')
-                if ip == 'A' or ip == 'a':
+                if ip in ("A", "a"):
                     module_1 = module_1 + 1
                     break
-                elif ip == 'B' or ip == 'b':
+                elif ip in ("B", "b"):
                     module_2 = module_2 + 1
                     break
-                elif ip == 'C' or ip == 'c':
+                elif ip in ("C", "c"):
                     module_3 = module_3 + 1
                     break
-                elif ip == 'D' or ip == 'd':
+                elif ip in ("D", "d"):
                     module_4 = module_4 + 1
                     break
                 else:
