@@ -2,7 +2,6 @@
 # of zorg dat je de juiste filepath schrijft(dit hoeft alleen als je niet de txt en py bestanden in hetzelfde map heb zitten!)
 import os
 import time
-import re
 
 replay = 1
 module_1 = 0
@@ -85,7 +84,6 @@ def vraagfunc():
             print(curline)
             
     vragenfile.close()
-    #anwser_file.close()
 
 def checker(a, b, c, d):
     global username
