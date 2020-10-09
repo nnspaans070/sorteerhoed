@@ -1,20 +1,94 @@
-Wat is je favoriete fruit?
-A) appel
-B) peer
-C) perzik
-D) mango
+Vraag 1:
+Wat lijkt jouw persoonlijk het leukste?
+A) SE
+B) Fict
+C) BDAM
+D) IAT
 --
-Wat is je favoriete automerk?
-A) Lambo
-B) Ferrari
-C) Tesla
-D) Koenigsegg
+Vraag 2:
+Wat lijkt jouw het minst leuke?
+A) BDAM
+B) IAT
+C) SE
+D) Fict
 --
-Heb je zin in wiskunde toets?
-A) nee
-B) Nee
-C) NEe
-D) NEE!!!!!
+Vraag 3:
+Wat vindt je van INET?
+A) Ik vindt het interessant
+B) Het leukste vak tot nu toe
+C) Ik vindt het niks
+D) Neutraal
 --
-Heb je zin in wiskunde toets?
+Vraag 4:
+Wat vindt je van IARCH?
+A) Neutraal
+B) Ik vindt het interessant
+C) Ik vindt het niks
+D) Het leukste vak tot nu toe
+--
+Vraag 5:
+Wil je vooral focussen op programmeren?
+A) Ja, ik wil er alleen maar mee bezig zijn
+B) Ik wil genoeg kennis hebben om in de shell te werken
+C) Zo min mogelijk
+D) Ik wil vooral hardware ermee programmeren
+--
+Vraag 6:
+Wat lijkt jouw het leukste?
+A) Java programmeren
+B) Vooral in de shell werken
+C) Vooral met data werke
+D) Werken met hardware
+--
+Vraag 7:
+Wat lijkt je leuker?
+A) Bouwen van applicaties
+B) Beschermen van applicaties
+C) Data-bases onderhouden
+D) Software maken
+--
+Vraag 8:
+Welke compententie pas bij jouw?
+A) Zelfstandigheid
+B) Onderzoeken
+C) Inzicht
+D) Doelgericht
+--
+Vraag 9:
+Welke competentie past bij jouw?
+A) Analiseren
+B) Documenteren
+C) Presenteren
+D) Ontwerpen
+--
+Vraag 10:
+Welke competentie past bij jouw?
+A) Ruimtelijk inzicht
+B) Besluitvaardig
+C) Resultaat gericht
+D) Creatief
+--
+Vraag 11:
+Welke competentie past bij jouw?
+A) Oplossingsgericht
+B) Netwerken
+C) Integer
+D) Commercieel
+--
+Vraag 12:
+Wat vindt je tot nu toe van het werken met de pi?
+A) Ik vindt het niks
+B) Ik vindt de bouw alleen interessant
+C) Neutraal
+D) Ik vindt het geweldig
+--
+Vraag 13:
+Hoe voel je bij samenwerken met andere?
+A) Niet prettig, ik werk liever alleen
+B) Ik vindt het zeer prettig
+C) Neutraal
+D) Ik vindt het prettig
+--
+Vraag 14:
+
 E.N.D.
