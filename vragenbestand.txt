@@ -90,5 +90,17 @@ C) Neutraal
 D) Ik vindt het prettig
 --
 Vraag 14:
-
+Wat voor projecten doe je liever?
+A) Ontwikkelen van een multi-spel
+B) Digitaal onderzoek
+C) Het ontsluiten van data
+D) Het bouwen van een interactieve installatie
+--
+Vraag 15:
+Wat voor projecten doe je liever?
+A) Back-end en frond-end applicatie bouwen
+B) Pen-testen
+C) Het ontwerpen van procesdiagram en een datamodel
+D) Een Virtual Reality app ontwikkelen
+--
 E.N.D.
