@@ -8,34 +8,6 @@ module_1 = 0
 module_2 = 0
 module_3 = 0
 module_4 = 0
-
-def menu():
-    global replay
-    print('Welcome user to the sorteerhoed 1AS ULTINUM made by team pepe')
-    time.sleep(2)
-    while True:
-        ua2 = input('\nSelect one of the following options:\n1)Start new session\n2)view the anwsers of an user\n3)Remove the anwsers from an user\n4)Close application\n')
-        if ua2 == '1':
-            break
-        elif ua2 == '2':
-            username4 = input('\nenter the username:\n')
-            if os.path.exists(username4+'_anwsers.txt'):
-                awnser_file2 = open(username4+'_anwsers.txt', 'r')
-                print(awnser_file2.read())
-                awnser_file2.close()
-            else:
-                print('User does not exist.\n\n')
-        elif ua2 == '3':
-            username5 = input('\n\nenter the username:\n')
-            if os.path.exists(username5+'_anwsers.txt'):
-                os.remove(username5+'_anwsers.txt')
-                print('File succesfully removed from liberary\n\n')
-                awnser_file2.close()
-            else:
-                print('File not found. Please enter an existing username\n\n')
-        elif ua2 == '4':
-            replay = 0
-            break
     
 
 def ask_user():
@@ -66,22 +38,27 @@ def vraagfunc():
                 print('\n')
                 if ip in ("A", "a"):
                     module_1 = module_1 + 1
-                    anwser_file.write('\n'+username+' anwser was: '+ip+'\n \n')
+                    anwser_file.write('\n'+username+' anwser was: '+ip.capitalize()+'\n \n')
+                    time.sleep(1)
                     break
                 elif ip in ("B", "b"):
                     module_2 = module_2 + 1
-                    anwser_file.write('\n'+username+' anwser was: '+ip+'\n \n')
+                    anwser_file.write('\n'+username+' anwser was: '+ip.capitalize()+'\n \n')
+                    time.sleep(1)
                     break
                 elif ip in ("C", "c"):
                     module_3 = module_3 + 1
-                    anwser_file.write('\n'+username+' anwser was: '+ip+'\n \n')
+                    anwser_file.write('\n'+username+' anwser was: '+ip.capitalize()+'\n \n')
+                    time.sleep(1)
                     break
                 elif ip in ("D", "d"):
                     module_4 = module_4 + 1
-                    anwser_file.write('\n'+username+' anwser was: '+ip+'\n \n')
+                    anwser_file.write('\n'+username+' anwser was: '+ip.capitalize()+'\n \n')
+                    time.sleep(1)
                     break
                 else:
                     print('BAKA SENPIA!!! PWEASE AWNSER WITH A, B, C OR D!')
+                    time.sleep(2)
         elif curline.startswith("E.N.D."):
             break
         else:
@@ -137,7 +114,9 @@ def pa():
             print('\n\nSenpaiiiii! Pwease anwser with a number!\n\n')
 
 
-menu()
+print('Welcome user to the sorteerhoed 1AS ULTINUM made by team pepe!\n')
+time.sleep(3)
+pa()
 while replay == 1:
     ask_user()
     vraagfunc()
