@@ -37,7 +37,7 @@ Vraag 6:
 Wat lijkt jouw het leukste?
 A) Java programmeren
 B) Vooral in de shell werken
-C) Vooral met data werke
+C) Vooral met data werken
 D) Werken met hardware
 --
 Vraag 7:
