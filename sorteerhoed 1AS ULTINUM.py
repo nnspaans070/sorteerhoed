@@ -10,10 +10,11 @@ module_3 = 0
 module_4 = 0
 
 def menu():
+    global replay
     print('Welcome user to the sorteerhoed 1AS ULTINUM made by team pepe')
     time.sleep(2)
     while True:
-        ua2 = input('\nSelect one of the following options:\n1)Start new session\n2)view the anwsers of an user\n3)Remove the anwsers from an user\n')
+        ua2 = input('\nSelect one of the following options:\n1)Start new session\n2)view the anwsers of an user\n3)Remove the anwsers from an user\n4)Close application\n')
         if ua2 == '1':
             break
         elif ua2 == '2':
@@ -32,6 +33,9 @@ def menu():
                 awnser_file2.close()
             else:
                 print('File not found. Please enter an existing username\n\n')
+        elif ua2 == '4':
+            replay = 0
+            break
     
 
 def ask_user():
@@ -103,7 +107,7 @@ def pa():
     global module_3
     global module_4
     while True:
-        ua = input('Select one of the following options:\n1)Start new session\n2)view the anwsers of an user\n3)Remove the awnsers of an user\n4)close application\n')
+        ua = input('Select one of the following options:\n1)Start new session\n2)view the anwsers of an user\n3)Remove the awnsers of an user\n4)Close application\n')
         if ua == '1':#begin opnieuw
             module_1 = 0
             module_2 = 0
@@ -134,13 +138,8 @@ def pa():
 
 
 menu()
-while True:
+while replay == 1:
     ask_user()
     vraagfunc()
     checker(module_1, module_2, module_3, module_4)
     pa()
-    if replay == 0:
-        break
-    else:
-        pass
-
