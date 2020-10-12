@@ -46,6 +46,7 @@ def ask_user():
 
 
 def vraagfunc():
+    global vragenfile
     global anwser_file
     global username
     global module_1
@@ -61,7 +62,7 @@ def vraagfunc():
                 print('\n')
                 if ip in ("A", "a"):
                     module_1 = module_1 + 1
-                    anwser_file.close()
+                    anwser_file.write('\n'+username+' anwser was: '+ip+'\n \n')
                     break
                 elif ip in ("B", "b"):
                     module_2 = module_2 + 1
@@ -83,9 +84,9 @@ def vraagfunc():
             anwser_file.write(curline)
             print(curline)
             
-    vragenfile.close()
 
 def checker(a, b, c, d):
+    global vragenfile
     global username
     global anwser_file
     dic1 = {'Software Engineering': a, 'Forensisch ICT': b, 'Business Data Management': c, 'Interactie-technologie': d}
@@ -93,6 +94,7 @@ def checker(a, b, c, d):
     anwser_file.write(username+' scored the best with:\n'+anwser+'\n')
     print(username,'scored the best with:\n', anwser+'\n')
     anwser_file.close()
+    vragenfile.close()
 
 def pa():
     global replay
@@ -141,3 +143,4 @@ while True:
         break
     else:
         pass
+
